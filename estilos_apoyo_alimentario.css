@@ -1,0 +1,138 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    scroll-behavior: smooth;
+  }
+  
+  .ancho {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #007BFF;
+    font-size: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    padding: 10px 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-left img {
+    width: 50px;
+  }
+  
+  .header-center {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .header-right {
+    margin-right: 20px;
+  }
+  
+  .usuario {
+    font-size: 15px;
+    color: #000000;
+  }
+  
+  /* Menú */
+  .menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .menu a {
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #007BFF;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .menu a:hover {
+    background-color: #007BFF;
+    color: white;
+    transform: translateY(-2px);
+  }
+  
+  /* Sección de Detalles del Apoyo */
+  .detalle-apoyo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  /* Botones */
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn_detalle, .btn_volver {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn_detalle:hover, .btn_volver:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #f4f4f9;
+  }
+  
